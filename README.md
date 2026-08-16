@@ -23,9 +23,9 @@ Built as a hands-on demonstration that revenue recognition, deferred revenue rol
 
 ## The Problem
 
-Smaller SaaS companies rarely have a dedicated revenue accountant. The generalist who owns the close is expected to handle the revenue-recognition pieces that are specific to subscription businesses: deferring annual prepayments and recognizing them over the term, handling usage billing that is recognized as consumed, clearing deferred revenue correctly when a customer churns or changes plans, and reconciling all of it back to the general ledger at month-end.
+SaaS revenue can't just be booked when the cash arrives — it has to be earned over time. If a customer pays for a year of software up front, the company hasn't earned all that money yet; it earns it month by month as it delivers the service. Until then, the unearned part sits on the balance sheet as deferred revenue.
 
-That work follows a repeatable pattern — read the contract, determine the performance obligation, recognize revenue as it is satisfied, roll the deferred balance forward, and reconcile to the GL. This project models that pattern for a fictional SaaS company, so the logic is visible and every number can be traced from contract to journal entry to reported metric.
+Keeping that straight is usually one accountant's job at month-end: spreading annual payments across the year, recognizing usage as customers consume it, clearing deferred revenue when someone cancels or downgrades, and reconciling it all to the general ledger. This project models that whole cycle for a fictional SaaS company — so the logic is visible, and every number traces from the contract to the journal entry to the reported metric.
 
 ---
 

@@ -370,7 +370,7 @@ function Stat({ label, value, sub, accent }) {
 export default function App() {
   const [customers, setCustomers] = useState(SEED);
   const [form, setForm] = useState({ name: "", plan: "Growth", billing: "Annual", startMonth: 0, amount: "", discountPct: "" });
-  const [viewMonth, setViewMonth] = useState(11);
+  const [viewMonth, setViewMonth] = useState(0);
 
   const model = useMemo(() => buildModel(customers), [customers]);
   const current = model[viewMonth];
@@ -1112,7 +1112,7 @@ export default function App() {
             </a>
           </div>
           <div style={{ marginTop: 10, fontSize: 11, color: "#98A2B3" }}>
-            Downloads work when the dashboard is run or deployed alongside these files (they live in the project's <code>public</code> folder).
+            These are reference files for the baseline dataset — every metric traced with live formulas so the calculations can be verified. Customers you add in the table above appear in the live views, journal entries, and the JE <strong>Export CSV</strong>, but not in these static files.
           </div>
         </div>
 
