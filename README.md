@@ -4,7 +4,7 @@ An interactive model of how a SaaS business recognizes revenue under ASC 606 —
 
 Built as a hands-on demonstration that revenue recognition, deferred revenue roll-forwards, and the SaaS-specific accounting that trips up generalists can be modeled correctly, end to end, with every figure traceable back to a contract and a journal entry.
 
-**🔗 [View Live Demo](LIVE_DEMO_LINK)**
+**🔗 [View Live Demo](saas-revrec-dashboard-mm10v6ps7-saa-srrd.vercel.app)**
 
 ---
 
